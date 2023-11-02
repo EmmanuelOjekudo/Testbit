@@ -1,0 +1,93 @@
+---
+title: "Untitled"
+author: "Emmanuel Ojekudo"
+date: "2023-03-07"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Bellabeat
+
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLX-tdij_MQ7lDd2bjJxA5BGQra7ELOWAJklDKmQTE&s)
+
+## Introduction
+
+Hello I'm _Emmanuel Ojekudo_ and Welcome to my bellabeat's case study. 
+In this case study, I will be performing many real world task of a junior data analyst to solve this problem. I'll will also be implementing the various steps of the data analysis process which includes: The Ask phase, Prepare phase, Process phase, Analyze phase, Share phase and Act phase.
+
+## About Bellabeat
+
+A little intoduction about Bellabeat, Bellabeat is a high-tech company founded by Urška Sršen and Sando Mur.They manufacture health-focused smart products. Since it was founded in 2013, Bellabeat has grown rapidly and has been itself a tech-driven wellness company for women.
+
+### 1. Asking Questions to Gain Insight (Ask)
+
+I have been asked to analyze smart device usage in order to gain insight into how consumers use non-Bellabeat smart devices.
+
+#### 1.1. Who are the stakeholders?
+The stake holders include the people who have invested both money, resources and time and expect an outcome. Here the stakeholders include:
+
+-   Urška Sršen: The founder and Chief Creative Officer.
+-   Sando Mur: Mathematician and Bellabeat Cofounder; Key member of the executive team.
+-   Bellabeat Marketing Analytics Team.
+
+#### 1.2. What are the Business Task?
+
+In this study, I will be focusing on the Bellabeat's Springe: A water bottle that tracks daily water intake using smart technology to ensure you are properly hydrated throughout the day. The Spring bottle connects to the Bellabeat's app to track your hydration.
+I'll be gaining insights and recommendations on the product to help drive business decisions. 
+
+### 2. Preparing the data (Prepare)
+
+In this phase, I will be preparing my data by downloading the data. I will also be ensuring the data are credible. Here I would be picking the tables I will be using and ensuring the data is organized.
+
+#### 2.1. Downloading the data
+
+Sršen encouraged me to download the public data that explores smart device user's daily habits. She also pointed to me a specific data set: [FitBit Fitness Tracker Data](https://www.kaggle.com/datasets/arashnic/fitbit)(CCO: Public Domain, dataset made available through [Mobius](https://www.kaggle.com/arashnic)): This Kaggle data set contains personal fitness tracker information from thirty fitbit users. Thirty eligible fitbit users consented to the submission of personal tracker data, including minute-level output for physical activity, heart rate and sleep monitoring. It includes information about daily activities, steps, and heart rate that can be used to explore user's habits.
+
+#### 2.2. Loading Packages
+
+Here, I will be installing some R packages using the 'install.packages()' command and loading them:
+
+```{r Installing Packages, message=FALSE, warning=FALSE}
+install.packages("tidyverse")
+install.packages("ggplot2")
+install.packages("tidyr")
+install.packages("lubridate")
+install.packages("dplyr")
+```
+
+I also installed some cleaning R packages to help clean the data:
+
+```{r Installing Cleaning packages, message=FALSE, warning=FALSE}
+install.packages("janitor")
+install.packages("here")
+install.packages("skimr")
+```
+
+Now, I'll be loading all the packages using the 'library()' command:
+
+```{r Loading Installed Packages, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(ggplot2)
+library(tidyr)
+library(lubridate)
+library(dplyr)
+library(janitor)
+library(here)
+library(skimr)
+```
+
+### 2.3. Importing the datasets
+
+I reviewed the datasets already, after which I chose the datasets I will be using for my analysis. I will now be importing the dataset into my R environment using the 'read.csv()' command:
+
+```{r}
+
+
+```
+
+
+
+
